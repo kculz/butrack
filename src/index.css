@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply font-Poppins
+  }
+
+  .bg-hero{
+    background: url('./assets/images/pexels.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @apply md:h-screen h-full
+
+  }
+}
